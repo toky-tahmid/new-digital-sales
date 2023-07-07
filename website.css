@@ -80,11 +80,12 @@
     text-align: center;
     padding: 15px;
     color: white;
-    box-shadow: #fcf9f9 5px 5px ;
+    box-shadow: #aaa8a8 0px 4px 5px ;
     
 }
 .icon{
     width: 100px;
+    
 }
 .box-btn{
   background-color: gray;
@@ -103,23 +104,59 @@
     justify-content: space-around;
     padding: 20px;
     align-items: center;
+    background-image: url(background.png),
+    linear-gradient(45deg,#131313,#3b3b3b)
     
 }
-.service-contain{
-    display:flex ;
-    justify-content: space-around;
+
     
-}
-.service-contains{
-    display: flex;
-    align-items: center;
-    
-}
+
 .title about-title{
     align-items: center;
     display: inline;
+    
 }
 .about-title{
     text-align: center;
     padding-top: 20px;
+    color: white;
+    background-image: url(background.png),
+    linear-gradient(45deg,#131313,#3b3b3b)
+    
 }
+.last-container{
+    background-color: rgb(54, 54, 54);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-right: 10px;
+    padding-right:8px;
+    font-size: 20 px;
+}
+.logo{
+    list-style: none;
+    padding: 10px;
+    line-gap-override: 100px;
+    cursor: pointer;
+
+}
+.logo:hover{
+    color: blueviolet;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
