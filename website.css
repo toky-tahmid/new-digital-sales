@@ -1,0 +1,125 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.main-container{
+    background-color: rgb(54, 54, 54);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-right: 10px;
+    padding-right:8px;
+    font-size: 20 px;
+    cursor: pointer;
+}
+.item:hover{
+    color: blueviolet;
+}
+.logo-photo{
+
+    width: 120px;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content:space-around;
+    height: 100vh;
+    /* border: 2px solid gray; */
+    align-items: center;
+    color: white;
+    background-image: url(background.png),
+    linear-gradient(45deg,#131313,#3b3b3b)
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.discription{
+    font-size: 18 px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.btn{
+
+    padding: 10px 20px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+   
+}
+.about-us{
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    box-shadow: #fcf9f9 5px 5px ;
+    
+}
+.icon{
+    width: 100px;
+}
+.box-btn{
+  background-color: gray;
+
+  margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+
+}
+.box-discripsion{
+    padding: 5px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    
+}
+.service-contain{
+    display:flex ;
+    justify-content: space-around;
+    
+}
+.service-contains{
+    display: flex;
+    align-items: center;
+    
+}
+.title about-title{
+    align-items: center;
+    display: inline;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
